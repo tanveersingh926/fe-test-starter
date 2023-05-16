@@ -26,7 +26,7 @@ If you prefer to work on localhost in your IDE, we leave it to you to figure out
 
 **All code you submit must be in TypeScript**.
 
-## Userful info
+## Useful info
 [Ignition](https://ignitionapp.com) developers use [React](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Chakra UI](https://chakra-ui.com/), [React Hook Form](https://react-hook-form.com/) (RHF) and [Zod](https://zod.dev/) every day. In this coding exercise you'll be using all of these tools. Basic scaffolding has been set up for you so you can hit the ground running.
 
 This is an "open book test" - feel free to learn as you go by browsing documentation and any resource you can find on the web.
