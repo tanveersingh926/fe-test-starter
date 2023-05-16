@@ -3,7 +3,7 @@
 ## Exercise
 You need to build a form that validates data when submit button is pressed with all errors shown to the user as presented in the screenshot below.
 
-We have provided some tests with this project. These tests will help you write the right zod schema to validate the form. Your task is to write the code that makes tests pass and build ui that works.
+We have provided some tests with this project. Use these tests to help shape the UI interactions and write a matching `zod` schema to validate the form. Your task is to write the code that makes tests pass and build UI that works as expected.
 
 Use your imagination when building the form. If you build what is presented in the screenshot, it should be sufficient, but if you want to make it fancier - all the more power to you!
 
