@@ -5,7 +5,7 @@ You need to build a form that validates data when submit button is pressed with 
 
 We have provided some tests with this project. These tests will help you write the right zod schema to validate the form. Your task is to write the code that makes tests pass and build ui that works.
 
-Use your imagination when building the form. If you build what is presented in the screenshot, it should be sufficient, but if you want to make it fancier - all the power to you!
+Use your imagination when building the form. If you build what is presented in the screenshot, it should be sufficient, but if you want to make it fancier - all the more power to you!
 
 <figure class="image">
   <img src="img/form.png" alt="Example form">
