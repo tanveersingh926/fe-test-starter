@@ -33,4 +33,4 @@ This is an "open book test" - feel free to learn as you go by browsing documenta
 
 Try to make as many tests pass as you can, but don't be discouraged if you can't do it all.
 
-This exercise may feel very specific with the tools we chose to work with. We did this so you can get a taste of what Ignition Engineers are dealing with. If this is your cup of tea, we'll be happy to chat with you.
+This exercise may feel very specific regarding the tools we chose to work with, however they were chosen so that you can get a taste of what Ignition Engineers are dealing with on a day-to-day basis. If this is up your alley, we'll be happy to chat with you.
