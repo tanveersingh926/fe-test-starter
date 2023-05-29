@@ -1,10 +1,10 @@
 import { render, screen, userEvent } from './test-setup/test-utils.tsx'
 export * from '@testing-library/react'
 
-import App from './App'
+import { Form } from './Form'
 
 test('Has basic fields', () => {
-  render(<App />)
+  render(<Form />)
 
   // Test that the basic inputs and submit button exist
   expect(screen.getByTestId('name')).toBeInTheDocument()
@@ -13,7 +13,7 @@ test('Has basic fields', () => {
 })
 
 test('Has fields that are shown conditionally', async () => {
-  render(<App />)
+  render(<Form />)
 
   // There are two radio buttons to show the price types
   expect(screen.getAllByRole('radio')).toHaveLength(2)

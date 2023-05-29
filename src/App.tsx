@@ -1,17 +1,23 @@
-import { useForm } from 'react-hook-form'
-import { zodResolver } from '@hookform/resolvers/zod'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
-import { formSchema } from './schema'
+import { Form } from "./Form"
+import { Readme } from "./Readme"
+
+const router = createBrowserRouter([
+  {
+    index: true,
+    path: "/",
+    element: <Readme />,
+  },
+  {
+    path: "/form",
+    element: <Form />,
+  },
+]);
 
 export default function App() {
-  const formMethods = useForm({
-    resolver: zodResolver(formSchema),
-  })
-
-  // The callback to use when the form is submitted
-  const saveData = (data) => {
-    console.log(data)
-  }
-
-  return <div className="App">Your UI code goes here</div>
+  return <RouterProvider router={router} />
 }
