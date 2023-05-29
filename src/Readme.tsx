@@ -120,12 +120,11 @@ export const Readme = () => (
       </Text>
       <Text>
         Make as many specs pass as you can, but don't be discouraged if you
-        can't do it all. We'll run <Text as="kbd">npm run test</Text> to check
-        your work.
+        can't do it all.
       </Text>
       <Text>
         We expect that you will be able to inspect the code and understand how
-        to run the tests and generally be able to navigate the codebase.{' '}
+        to run the tests and be able to navigate and understand the codebase.{' '}
       </Text>
       <Text>
         This exercise may feel very specific regarding the tools we chose to
