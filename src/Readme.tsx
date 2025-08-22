@@ -24,7 +24,7 @@ export const Readme = () => (
         borderBottom="1px"
         borderBottomColor="gray.200"
       >
-        Front end coding test
+        Front-end coding test
       </Heading>
       <Text fontSize="xl">
         <Link href="https://ignitionapp.com">Ignition</Link> developers use{' '}
